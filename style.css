@@ -1,0 +1,278 @@
+* {
+    font-family: muli, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-style: normal;
+}
+
+body {
+    background-color: #000;
+}
+
+h1,
+h2,
+h4,
+h1 span {
+
+    font-family: 'Mulish', sans-serif;
+}
+
+h1 span {
+    color: #4400ff;
+}
+
+header img {
+    width: 60%;
+}
+
+head picture {
+    height: min-content;
+    width: min-content;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    border-bottom: 1px solid #111;
+    position: sticky;
+    background-color: #000;
+    z-index: 100;
+}
+
+nav {
+    background-color: #000;
+    z-index: 100;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    width: 100%;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #6e61ff;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 15px;
+    border-radius: 6px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 66px;
+    width: 100%;
+    border-bottom: 1px solid #111;
+}
+
+#home {
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    height: 100vh;
+    position: relative;
+    align-items: center;
+}
+
+#home h1 {
+    max-width: 550px;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+input {
+    background-color: rgba(240, 238, 255, 0.1) !important;
+    border: none;
+    outline: none;
+}
+
+form button {
+    background-color: rgba(240, 238, 255, 0.2) !important;
+    color: #fff;
+    border-radius: 0px 5px 5px 0px;
+}
+
+form button,
+input {
+    height: 50px;
+    padding: 15px 45px;
+    margin: 0;
+    border: none;
+}
+
+#home aside:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#home aside picture img {
+    width: 270px;
+    object-fit: cover;
+    height: 270px;
+    opacity: .3;
+    border-radius: 50%;
+}
+
+#home h1 span {
+    text-shadow: 0px 1px 14px hsl(256, 94%, 26%);
+}
+
+#home p {
+    font-size: 1.1em;
+    max-width: 580px;
+    line-height: 25px;
+    color: rgba(240, 238, 255, 0.6) !important;
+}
+
+#skills {
+    width: 100%;
+    align-items: center;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 130px 20px;
+    align-items: center;
+}
+
+.skillsContainer img {
+    width: 90px;
+    object-fit: cover;
+    height: 90px;
+    margin: 20px;
+}
+
+#projects {
+    width: 100%;
+    gap: 50px;
+    position: relative;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+.project img {
+    width: 30px;
+}
+
+.image-project img {
+    min-width: 480px;
+    object-fit: cover;
+    height: 240px;
+}
+
+
+
+.containerProjects {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    background-color: rgb(24 24 26);
+    padding: 20px;
+    border-radius: 20px;
+    width: min-content;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.details {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    transform: translateY(330px);
+    transition: .3s all;
+    background-color: rgba(41, 40, 41, 0.8);
+}
+
+
+.project:hover div+picture+.details {
+    transform: translateY(0px) !important;
+}
+
+.lenjuages {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-buttons button {
+    border: none;
+}
+
+.drag {
+    color: #333;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    #home img {
+        width: 100px !important;
+        height: 100px !important;
+        display: none;
+    }
+
+
+}
