@@ -85,6 +85,7 @@ button {
 
 [type="submit"] {
     cursor: pointer;
+    width: 30% !important;
 }
 
 #cv:hover {
@@ -128,6 +129,7 @@ form {
     display: flex;
     align-items: center;
     gap: 2px;
+    flex-wrap: wrap;
 }
 
 input {
@@ -140,13 +142,20 @@ form button {
     background-color: rgba(240, 238, 255, 0.2) !important;
     color: #fff;
     border-radius: 0px 5px 5px 0px;
+    width: 100% !important;
+    text-align: center;
+}
+
+#home form input {
+    padding: 20px;
 }
 
 form button,
 input {
+
     height: 50px;
-    padding: 15px 45px;
     margin: 0;
+    width: 40%;
     border: none;
 }
 
