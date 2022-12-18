@@ -350,14 +350,18 @@ h4 {
 }
 
 /* @media only screen and (max-width: 600px) {
-
+    
     h1 {
         font-size: 3rem !important;
     }
-
+    
     #home {
         display: flex;
         flex-direction: row;
     }
-
+    
 } */
+
+button {
+    width: min-content !important;
+}
