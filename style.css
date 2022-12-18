@@ -70,7 +70,7 @@ ul li a {
 }
 
 button {
-    padding: 10px 25px;
+    padding: 13px 25px;
     font-size: 15px;
     border-radius: 6px;
     background-color: #fff;
@@ -78,6 +78,19 @@ button {
     cursor: pointer;
 }
 
+#cv {
+    width: 50%;
+    transition: all .3s;
+}
+
+[type="submit"] {
+    cursor: pointer;
+}
+
+#cv:hover {
+    color: #fff;
+    background-color: #4400ff;
+}
 
 section {
     display: flex;
@@ -141,7 +154,8 @@ input {
     width: 270px;
     object-fit: cover;
     height: 270px;
-    opacity: .3;
+    opacity: .2;
+
     border-radius: 50%;
 }
 
@@ -165,8 +179,8 @@ input {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
+    gap: 100px;
     padding: 130px 20px;
     align-items: center;
 }
@@ -204,8 +218,8 @@ input {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 100px;
+    justify-content: center;
+    gap: 130px;
     align-items: flex-end;
     flex-wrap: wrap;
 }
@@ -262,10 +276,6 @@ input {
     border: none;
 }
 
-.drag {
-    color: #333;
-    text-align: center;
-}
 
 @media only screen and (max-width: 900px) {
     #home img {
@@ -276,3 +286,54 @@ input {
 
 
 }
+
+h2 {
+    text-align: center;
+}
+
+#contact {
+    gap: 50px;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 18, 19);
+    padding: 20px;
+    width: 80% !important;
+    border-radius: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+#contact textarea {
+    color: #000;
+}
+
+#contact input,
+#contact textarea {
+    width: 80%;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#contact button {
+    border-radius: 0;
+}
+
+/* @media only screen and (max-width: 600px) {
+
+    h1 {}
+
+
+} */

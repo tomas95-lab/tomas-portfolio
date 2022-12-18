@@ -21,6 +21,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -37,8 +38,10 @@
                 </p>
                 <form action="">
                     <input type="mail" placeholder="Email Adress">
-                    <button>Get Started</button>
+                    <input type="submit" value="Get Started">
                 </form>
+                <a href="./assets/Tomas Joaquin Ruiz CV.pdf"><button id="cv">Download CV</button>
+                </a>
             </aside>
             <aside>
                 <picture><img src="./assets/profile-pic.jpg" alt=""></picture>
@@ -287,7 +290,21 @@
                 </div>
             </div>
         </section>
-        <section id="features"></section>
+        <section id="contact">
+            <div>
+                <h2>Contact</h2>
+                <h4>Let's make something together!</h4>
+
+            </div>
+            <div class="formContainer">
+                <form action="https://formspree.io/f/xrgvzerv" method="POST">
+                    <input placeholder="Your email:" type="email" name="email">
+                    <textarea name="message" placeholder="Your message:"></textarea>
+                    <!-- your other form fields go here -->
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
     </main>
     <script src="main.js"></script>
 </body>
