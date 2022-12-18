@@ -13,7 +13,27 @@ html {
 
 body {
     background-color: #000;
+}
 
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    animation: init 1s 1;
+}
+
+@keyframes init {
+    from {
+        transform: translateX(-600px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 h1,
@@ -101,13 +121,6 @@ button {
     background-color: #4400ff;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
 
 section {
     display: flex;
@@ -198,6 +211,7 @@ input {
     align-items: center;
 }
 
+
 .skillsContainer {
     display: flex;
     flex-wrap: wrap;
@@ -213,6 +227,7 @@ input {
     object-fit: cover;
     height: 90px;
     margin: 20px;
+    filter: drop-shadow(0px 0px 10px#444) !important;
 }
 
 #projects {
