@@ -428,65 +428,6 @@ h4 {
     padding: 10px 20px;
 }
 
-
-
-@media only screen and (max-width: 500px) {
-
-    #home picture,
-    #home .social {
-
-        display: none;
-    }
-
-    header picture {
-        display: none;
-    }
-
-    nav ul {
-        width: 100%;
-        justify-content: space-between !important;
-    }
-
-    section {
-        padding: 40px;
-    }
-
-    .formContainer {
-        width: 100% !important;
-    }
-
-    .details {
-        position: relative;
-        transform: translateY(0);
-        width: 100%;
-        gap: 20px;
-        background-color: transparent;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-
-    h1 {
-        font-size: 3rem !important;
-    }
-
-    #home {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .image-project img {
-        object-fit: cover;
-    }
-
-    #projects {
-        padding: 10px;
-    }
-
-
-
-}
-
 .projects {
     width: 100%;
     display: flex;
@@ -616,4 +557,59 @@ main.light #home p {
 
 main.light #home aside picture img {
     opacity: .9;
+}
+
+@media only screen and (max-width: 500px) {
+
+    #home picture,
+    #home .social {
+
+        display: none;
+    }
+
+    header picture {
+        display: none;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: space-between !important;
+    }
+
+    section {
+        padding: 40px;
+    }
+
+    .formContainer {
+        width: 100% !important;
+    }
+
+    .details {
+        position: relative;
+        transform: translateY(0);
+        width: 100%;
+        gap: 20px;
+        background-color: transparent;
+    }
+
+    h1 {
+        font-size: 3rem !important;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image-project img {
+        object-fit: cover;
+    }
+
+    #projects {
+        padding: 10px;
+    }
+
+    #modeLabel {
+        display: none;
+    }
 }
