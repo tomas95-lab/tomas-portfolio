@@ -22,19 +22,17 @@ main {
     width: 100%;
     align-items: center;
     justify-content: center;
-    animation: init 1s 1;
+    animation: init 1.5s 1;
     transition: all 1s;
     background-color: #000;
 }
 
 @keyframes init {
     from {
-        transform: translateX(-600px);
         opacity: 0;
     }
 
     to {
-        transform: translateX(0px);
         opacity: 1;
     }
 }
