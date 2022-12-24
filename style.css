@@ -560,7 +560,11 @@ main.light #home aside picture img {
     opacity: .9;
 }
 
-@media only screen and (max-width: 500px) {
+main.light section {
+    border-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 600px) {
 
     #home picture,
     #home .social {
