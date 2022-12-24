@@ -286,6 +286,7 @@ i {
     align-items: flex-end;
     flex-wrap: wrap;
     overflow: hidden;
+    padding: 10px;
 }
 
 .project {
@@ -567,6 +568,10 @@ main.light section {
     border-color: #f0f0f0;
 }
 
+main.light .project {
+    box-shadow: 10px 8px 5px #ccc;
+}
+
 @media only screen and (max-width: 600px) {
 
     #home picture,
@@ -634,9 +639,6 @@ i:hover {
     color: #777;
 }
 
-
-
-/* CSS */
 .button {
     align-items: center;
     appearance: none;
