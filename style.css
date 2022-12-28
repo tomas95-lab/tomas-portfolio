@@ -257,7 +257,7 @@ i {
     width: 100%;
     gap: 50px;
     position: relative;
-    justify-content: center;
+    justify-content: sp;
     align-items: center;
 }
 
@@ -336,6 +336,10 @@ i {
 }
 
 .containerProjects.animate .project:nth-child(8) {
+    animation: moveProject 1s ease 1 forwards;
+}
+
+.containerProjects.animate .project:nth-child(9) {
     animation: moveProject 1s ease 1 forwards;
 }
 
@@ -456,6 +460,7 @@ h4 {
 
 .project-desctiprion {
     width: 100%;
+    padding: 10px;
     text-align: center;
 }
 
@@ -513,6 +518,8 @@ nav ul li a {
 .skillsContainer.animate picture:nth-child(6) {
     animation: move 1s ease 1 forwards;
 }
+
+
 
 input[type="checkbox"] {
     width: 20px !important;
