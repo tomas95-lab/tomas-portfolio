@@ -50,12 +50,17 @@ h1 span {
 }
 
 header img {
-    width: 60%;
+    height: 40px !important;
 }
 
-head picture {
+header picture {
+    width: 100%;
     height: min-content;
-    width: min-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
 }
 
 header {
@@ -70,7 +75,6 @@ header {
 }
 
 nav {
-    backgrpaund-color: #000;
     z-index: 100;
     display: flex;
     list-style: none;
@@ -572,12 +576,51 @@ main.light #home aside picture img {
     opacity: .9;
 }
 
+main.light .formContainer {
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+main.light .formContainer input,
+main.light .formContainer textarea {
+    background: rgba(231, 231, 231, 0.897) !important;
+}
+
+main.light .formContainer button {
+    background-color: rgb(201, 198, 198);
+    color: #000;
+}
+
 main.light section {
     border-color: #f0f0f0;
 }
 
 main.light .project {
     box-shadow: 10px 8px 5px #ccc;
+}
+
+header.light {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+header.light a {
+    color: #000;
+}
+
+header.light a:hover {
+    color: #8a20fc;
+}
+
+i {
+    transition: all .3s;
+}
+
+main.light i:hover {
+    filter: drop-shadow(0 0 10px #4400ff);
+    color: #4400ff !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -644,7 +687,8 @@ textarea {
 }
 
 i:hover {
-    color: #777;
+    filter: drop-shadow(0 0 10px #4400ff);
+    color: #4400ff;
 }
 
 .button {
