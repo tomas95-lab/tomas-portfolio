@@ -492,6 +492,9 @@ nav ul li a {
 
 }
 
+.skillsContainer picture {
+    transform: translateX(-1000%);
+}
 
 .skillsContainer.animate picture:nth-child(1) {
     animation: move .5s ease 1 forwards;
