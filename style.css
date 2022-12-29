@@ -70,7 +70,7 @@ header {
 }
 
 nav {
-    background-color: #000;
+    backgrpaund-color: #000;
     z-index: 100;
     display: flex;
     list-style: none;
@@ -193,7 +193,7 @@ input {
     width: 270px;
     object-fit: cover;
     height: 270px;
-    opacity: .2;
+    opacity: .6;
     transition: all 1s;
     border-radius: 50%;
 }
