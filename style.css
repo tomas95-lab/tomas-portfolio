@@ -249,9 +249,8 @@ i {
 }
 
 .skillsContainer img {
-    width: 90px;
     object-fit: cover;
-    height: 90px;
+    height: 70px;
     margin: 20px;
 }
 
@@ -344,6 +343,8 @@ i {
 .containerProjects.animate .project:nth-child(9) {
     animation: moveProject 1s ease 1 forwards;
 }
+
+
 
 @keyframes moveProject {
 
@@ -524,6 +525,10 @@ nav ul li a {
     animation: move 1s ease 1 forwards;
 }
 
+.skillsContainer.animate picture:nth-child(7) {
+    animation: move 1s ease 1 forwards;
+}
+
 
 
 input[type="checkbox"] {
@@ -676,6 +681,8 @@ main.light i:hover {
     #modeLabel {
         display: none;
     }
+
+
 }
 
 textarea {
