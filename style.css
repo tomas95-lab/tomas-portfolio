@@ -344,6 +344,10 @@ i {
     animation: moveProject 1s ease 1 forwards;
 }
 
+.containerProjects.animate .project:nth-child(10) {
+    animation: moveProject 1s ease 1 forwards;
+}
+
 
 
 @keyframes moveProject {
