@@ -348,6 +348,10 @@ i {
     animation: moveProject 1s ease 1 forwards;
 }
 
+.containerProjects.animate .project:nth-child(11) {
+    animation: moveProject 1s ease 1 forwards;
+}
+
 
 
 @keyframes moveProject {
