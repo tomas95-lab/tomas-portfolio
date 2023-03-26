@@ -466,7 +466,7 @@ h4 {
 .image-project img {
     height: 160px;
     object-fit: contain;
-
+    border-radius: 20px;
 }
 
 .project-desctiprion {
